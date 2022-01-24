@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amrailee Fitness Freaks</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+    <script src="https://kit.fontawesome.com/6fa010ffb7.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
+
+
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url("images/Chachi.jpg");
+            color: white;
+            font-family: 'Nunito Sans', sans-serif;
+        }
+
+        .left {
+
+            /* border: solid rgb(0, 102, 255); */
+            display: inline-block;
+            position: absolute;
+            left: 50px;
+            top: 22px;
+            text-align: center;
+
+        }
+
+        .center {
+            display: block;
+            margin: 22px auto;
+            width: 40%;
+            /* border: solid rgb(0, 255, 136); */
+
+
+        }
+
+        .right {
+            position: absolute;
+            right: 20px;
+            top: 22px;
+            /* border: solid rgb(255, 0, 157); */
+            display: inline-block;
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            color: white;
+            display: inline-block;
+            font-size: 20px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 36px 20px;
+        }
+
+        .navbar li a:hover {
+            color: rgb(245, 83, 8);
+
+        }
+
+        .navbar li a.active {
+            color: rgb(245, 83, 8);
+
+        }
+
+        .fas {
+            font-size: 45px !important;
+            color: rgb(245, 83, 8);
+        }
+
+        .left div {
+            font-size: 20px;
+            margin-top: -13px;
+            font-family: 'Nunito Sans', sans-serif;
+        }
+
+
+        .btn {
+            margin: 15px;
+            background-color: transparent;
+            color: white;
+            font-size: 18px;
+            border: none;
+            padding: 4px 12px;
+            border-radius: 10px;
+            font-family: 'Nunito Sans', sans-serif;
+
+            cursor: pointer;
+        }
+        
+
+
+        .btn:hover {
+            margin: 15px;
+            background-color: rgb(182, 58, 0);
+            color: white;
+            font-size: 18px;
+            box-shadow: 1px 1px 1px 1px rgba(245, 83, 8, 0.801);
+
+
+        }
+
+        .btn:focus {
+            background-color: rgb(172, 54, 0);
+        }
+
+        .btn-{
+            margin: 20px auto;
+            background-color: black;
+            color: white;
+            font-size: 18px;
+            border: none;
+            padding: 4px 12px;
+            width: 86%;
+            border-radius: 6px;
+            font-family: 'Nunito Sans', sans-serif;
+
+            cursor: pointer;
+        }
+        .btn-:hover{
+            background-color: rgb(182, 58, 0);
+            color: white;
+            font-size: 18px;
+            box-shadow: 1px 1px 1px 1px rgba(245, 83, 8, 0.801);
+        }
+        .btn-:focus{
+            background-color: rgb(172, 54, 0);
+        }
+
+
+        .container {
+            border: rgb(255, 255, 255) solid 3px;
+            margin: 132px 68px;
+            padding: 61px 70px;
+            width: 33%;
+            border-radius: 15px;
+        }
+        .container h1{
+            margin-bottom: 10%;
+        }
+
+        .form-group input{
+            font-size: 14px;
+            padding: 4px 15px;
+            text-align: center;
+            display: block;
+            width: 80%;
+            border: 2px solid black;
+            margin: 10px auto;
+            font-family: 'Nunito Sans', sans-serif;
+
+
+        }
+
+        .container{
+            text-align: center ;
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+
+    <header class="header">
+        <!-- for logo -->
+        <div class="left">
+            <i class="fas fa-dumbbell"></i>
+            <div>
+                <p>Amrailee Fitness</p>
+            </div>
+        </div>
+
+        <!-- for nav -->
+        <div class="center">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a> </li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calcultor</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- for butons -->
+        <div class="right">
+            <button class="btn">Sign In</button>
+            <button class="btn">Sign Up</button>
+        </div>
+    </header>
+
+
+    <div class="container">
+        <h1>Join the Worst gym of Karachi</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter Your Name">
+                
+            </div>
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter Your Age">
+                
+            </div>
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter Your Gender">
+                
+            </div>
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter Your Locality">
+                
+            </div>
+
+            <button class="btn-" type="submit"> Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
